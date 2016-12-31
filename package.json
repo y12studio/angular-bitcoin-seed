@@ -1,0 +1,35 @@
+{
+  "name": "@y12/angular-bitcoin-seed",
+  "version": "0.0.1",
+  "description": "A seed project",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "buildpage": "node buildpage.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y12studio/angular-bitcoin-seed.git"
+  },
+  "keywords": [
+    "angular",
+    "bitcoin"
+  ],
+  "author": "JOYE LIN <y12studio@gmail.com> (https://y12.tw)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/y12studio/angular-bitcoin-seed/issues"
+  },
+  "homepage": "https://github.com/y12studio/angular-bitcoin-seed#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "fetch": "^1.1.0",
+    "http-server": "^0.9.0",
+    "mocha": "^3.2.0",
+    "web-resource-inliner": "^4.0.0"
+  },
+  "dependencies": {
+    "bitcore-lib": "^0.13.19",
+    "lodash": "^4.17.3"
+  }
+}
