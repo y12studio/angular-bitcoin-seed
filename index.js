@@ -1,9 +1,3 @@
 'use strict';
-
-function FooApp() {}
-
-FooApp.prototype.foo = function() {
-    return 'hello'
-}
-
-module.exports = FooApp
+var fooapp = module.exports;
+fooapp.FooLib = require('./foolib')

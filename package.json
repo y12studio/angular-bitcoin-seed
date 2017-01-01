@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec",
+    "buildjs": "browserify index.js -s abs1701 -o dist/abs1701.js && minify dist/abs1701.js",
     "buildpage": "node buildpage.js"
   },
   "repository": {
